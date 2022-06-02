@@ -13,3 +13,6 @@ X and Y can be done in various ways. P, the most difficult component, can be emu
 
 # Requirements  
 For the VAE layers, I use a cuda kernel nvidia made for a signal processing function for [stylegan2](https://github.com/NVlabs/stylegan2-ada-pytorch). Download a zip of relevant code here: [link](https://drive.google.com/file/d/1QWH3_jJV65cN3ebc0yZvXJ3t_ROm3ZG3/view?usp=sharing)
+  
+# Current progress:  
+Have a functional VAE implementation. For some reason it doesn't work with residual blocks? Must be some change that needs to be made. Additionally the VAE doesn't work very well on spectrograms.
